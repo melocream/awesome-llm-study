@@ -21,12 +21,12 @@ An opinionated Korean-first, source-verified map for learning LLMs: foundations,
 
 자료가 많은 것보다 **다음에 무엇을 할지 아는 것**이 중요합니다. 아래 순서대로 한 단계씩 끝내고, 관심 분야의 섹션으로 확장하세요.
 
-| 단계 | 목표 | 먼저 볼 자료 | 권장 기간 |
-| --- | --- | --- | --- |
-| 1. 작동 원리 잡기 | 토큰·어텐션·다음 토큰 예측을 말로 설명한다 | [3Blue1Brown](#1-️-llm-발전사--기초), [Illustrated Transformer](#1-️-llm-발전사--기초) | 1–2주 |
-| 2. 직접 만들어 보기 | 작은 언어 모델을 학습·평가한다 | [Karpathy Zero to Hero](#2--강의-courses), [CS336](#2--강의-courses) | 3–6주 |
-| 3. 제품으로 연결하기 | 프롬프트·RAG·툴 호출을 조합한다 | [에이전트·MCP](#3--에이전트--툴콜--mcp), [RAG](#6--rag-검색-증강-생성) | 2–4주 |
-| 4. 운영 가능한 시스템 만들기 | 평가·서빙·비용·보안을 함께 설계한다 | [Evals](#9--평가--evals), [로컬 실행](#10--로컬-실행--서빙--양자화), [보안](#11--llm-보안), [비용](#12--비용--토큰-경제학) | 지속 |
+| 단계                         | 목표                                       | 먼저 볼 자료                                                                                                               | 권장 기간 |
+| ---------------------------- | ------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------- | --------- |
+| 1. 작동 원리 잡기            | 토큰·어텐션·다음 토큰 예측을 말로 설명한다 | [3Blue1Brown](#1-️-llm-발전사--기초), [Illustrated Transformer](#1-️-llm-발전사--기초)                                     | 1–2주     |
+| 2. 직접 만들어 보기          | 작은 언어 모델을 학습·평가한다             | [Karpathy Zero to Hero](#2--강의-courses), [CS336](#2--강의-courses)                                                       | 3–6주     |
+| 3. 제품으로 연결하기         | 프롬프트·RAG·툴 호출을 조합한다            | [에이전트·MCP](#3--에이전트--툴콜--mcp), [RAG](#6--rag-검색-증강-생성)                                                     | 2–4주     |
+| 4. 운영 가능한 시스템 만들기 | 평가·서빙·비용·보안을 함께 설계한다        | [Evals](#9--평가--evals), [로컬 실행](#10-️-로컬-실행--서빙--양자화), [보안](#11-️-llm-보안), [비용](#12--비용--토큰-경제학) | 지속      |
 
 `[입문]`, `[중급]`, `[심화]`는 사전지식 기준이고, 시간은 첫 회독·실습의 대략적인 투자량입니다.
 
@@ -34,11 +34,12 @@ An opinionated Korean-first, source-verified map for learning LLMs: foundations,
 
 - [학습 로드맵](#️-학습-로드맵) · [발전사·기초](#1-️-llm-발전사--기초) · [강의](#2--강의-courses) · [에이전트·MCP](#3--에이전트--툴콜--mcp)
 - [Claude Code](#4--claude-code--코딩-에이전트) · [프롬프트](#5-️-프롬프트--컨텍스트-엔지니어링) · [RAG](#6--rag-검색-증강-생성) · [정렬](#7--파인튜닝--rlhf--정렬-alignment)
-- [핵심 논문](#8--핵심-논문-must-read-papers) · [평가·Evals](#9--평가--evals) · [로컬 실행](#10--로컬-실행--서빙--양자화) · [보안](#11--llm-보안) · [비용](#12--비용--토큰-경제학) · [멀티모달](#13--멀티모달) · [한국어 자료](#14--한국어-자료)
+- [핵심 논문](#8--핵심-논문-must-read-papers) · [평가·Evals](#9--평가--evals) · [로컬 실행](#10-️-로컬-실행--서빙--양자화) · [보안](#11-️-llm-보안) · [비용](#12--비용--토큰-경제학) · [멀티모달](#13-️-멀티모달) · [한국어 자료](#14--한국어-자료)
 
 ---
 
 ## 1. 🏗️ LLM 발전사 · 기초
+
 > 트랜스포머 → GPT → instruction tuning → 현재까지, "안에서 무슨 일이 벌어지는가"를 그림과 애니메이션으로 이해하기.
 
 - [입문 · 15–60분] [3Blue1Brown — Neural Networks 시리즈](https://www.3blue1brown.com/topics/neural-networks) · 신경망·어텐션을 수식이 아닌 직관으로 이해시키는 최고의 시각화 강의
@@ -52,6 +53,7 @@ An opinionated Korean-first, source-verified map for learning LLMs: foundations,
 - [입문 · 15–60분] [Generative AI exists because of the transformer — Financial Times](https://ig.ft.com/generative-ai/) · 스크롤형 인터랙티브로 배우는 생성형 AI의 작동 원리
 
 ## 2. 🎓 강의 (Courses)
+
 > 밑바닥부터 직접 구현하며 배우는 정통 커리큘럼 위주.
 
 - [중급 · 2–12시간] [Stanford CS224n — NLP with Deep Learning](https://web.stanford.edu/class/cs224n/) · NLP·언어모델의 정석 대학원 강의 (강의노트·슬라이드 공개)
@@ -65,6 +67,7 @@ An opinionated Korean-first, source-verified map for learning LLMs: foundations,
 - [중급 · 2–12시간] [Andrej Karpathy — YouTube 채널](https://www.youtube.com/@AndrejKarpathy) · 위 강의들의 원본 채널, LLM 학습 영상의 사실상 표준
 
 ## 3. 🤖 에이전트 · 툴콜 · MCP
+
 > "모델이 스스로 도구를 쓰게" 만드는 패턴과, 그 표준이 된 MCP.
 
 - [중급 · 20–90분] [Model Context Protocol — 공식 소개](https://modelcontextprotocol.io/docs/getting-started/intro) · LLM에 도구·데이터를 연결하는 개방형 표준 MCP의 출발점
@@ -76,6 +79,7 @@ An opinionated Korean-first, source-verified map for learning LLMs: foundations,
 - [중급 · 20–90분] [Toolformer: LMs Can Teach Themselves to Use Tools (arXiv)](https://arxiv.org/abs/2302.04761) · 모델이 스스로 API 호출을 학습하는 툴 사용의 대표 논문
 
 ## 4. 💻 Claude Code · 코딩 에이전트
+
 > 터미널에서 사는 코딩 에이전트 — 공식 문서와 실전 베스트 프랙티스.
 
 - [입문 · 15–45분] [Claude Code — Overview](https://code.claude.com/docs/en/overview) · Claude Code가 무엇이고 무엇을 할 수 있는지 공식 개요
@@ -86,6 +90,7 @@ An opinionated Korean-first, source-verified map for learning LLMs: foundations,
 - [입문 · 15–45분] [anthropics/claude-code — GitHub](https://github.com/anthropics/claude-code) · 이슈·릴리스·레퍼런스가 모이는 공식 저장소
 
 ## 5. ✍️ 프롬프트 · 컨텍스트 엔지니어링
+
 > 잘 물어보는 법(Prompt)에서, 무엇을 컨텍스트 윈도우에 넣을지 설계하는 법(Context)으로.
 
 - [입문 · 20–60분] [Anthropic — Prompt Engineering Overview](https://docs.claude.com/en/docs/build-with-claude/prompt-engineering/overview) · Claude 기준 프롬프트 기법 총정리 (공식)
@@ -96,6 +101,7 @@ An opinionated Korean-first, source-verified map for learning LLMs: foundations,
 - [입문 · 20–60분] [OpenAI Cookbook](https://cookbook.openai.com/) · 실전 예제 코드로 배우는 프롬프트·툴콜·임베딩 레시피
 
 ## 6. 📚 RAG (검색 증강 생성)
+
 > 모델의 지식 한계를 외부 검색으로 메우는 파이프라인 설계.
 
 - [중급 · 30–120분] [RAG: Retrieval-Augmented Generation (원논문, arXiv)](https://arxiv.org/abs/2005.11401) · RAG라는 개념을 처음 제시한 2020년 원조 논문
@@ -107,6 +113,7 @@ An opinionated Korean-first, source-verified map for learning LLMs: foundations,
 - [중급 · 30–120분] [Hugging Face Cookbook — Simple RAG](https://huggingface.co/learn/cookbook/rag_zephyr_langchain) · 오픈모델(Zephyr)+LangChain으로 만드는 최소 RAG 예제
 
 ## 7. 🎯 파인튜닝 · RLHF · 정렬 (Alignment)
+
 > 사전학습 모델을 "사람이 원하는 대로" 다듬는 방법 — SFT, RLHF, DPO, LoRA.
 
 - [중급 · 30–90분] [InstructGPT: Training LMs to follow instructions (arXiv)](https://arxiv.org/abs/2203.02155) · RLHF로 지시를 따르게 만든, ChatGPT의 직계 조상 논문
@@ -119,7 +126,10 @@ An opinionated Korean-first, source-verified map for learning LLMs: foundations,
 - [중급 · 30–90분] [Hugging Face TRL 문서](https://huggingface.co/docs/trl) · SFT·DPO·PPO를 코드로 돌리는 RLHF/정렬 학습 라이브러리
 
 ## 8. 📄 핵심 논문 (Must-Read Papers)
-> LLM 시대를 만든 랜드마크 논문 — arXiv 링크는 전부 실재 확인함.
+
+> LLM 시대를 만든 논문들. **모든 arXiv 링크는 abs 페이지를 직접 열어 논문 제목이 표기와 일치하는지 대조했습니다** (ID만 그럴듯하게 적힌 항목이 없도록).
+
+### 랜드마크 (2017–2023)
 
 - [심화 · 45–120분] [Attention Is All You Need (2017)](https://arxiv.org/abs/1706.03762) · 트랜스포머를 세상에 내놓은 모든 것의 시작
 - [심화 · 45–120분] [Scaling Laws for Neural Language Models (2020)](https://arxiv.org/abs/2001.08361) · 모델·데이터·연산을 키우면 예측 가능하게 좋아진다는 스케일링 법칙
@@ -131,11 +141,31 @@ An opinionated Korean-first, source-verified map for learning LLMs: foundations,
 - [심화 · 45–120분] [Llama 2 (2023)](https://arxiv.org/abs/2307.09288) · 오픈 웨이트 LLM 대중화를 이끈 Meta의 기술 보고서
 - [심화 · 45–120분] [ReAct (2023)](https://arxiv.org/abs/2210.03629) · 추론+행동 결합, LLM 에이전트의 개념적 토대
 - [심화 · 45–120분] [GPT-4 Technical Report (2023)](https://arxiv.org/abs/2303.08774) · 멀티모달·시험 성능 등 GPT-4의 능력과 한계를 담은 보고서
+
+### 2024–2026 프런티어 — MoE · 롱컨텍스트 · 추론 · SSM
+
+> 지금 모델들이 왜 이렇게 생겼는지를 설명하는 네 갈래. 위 랜드마크를 읽은 뒤에 보세요.
+
+**MoE (Mixture of Experts) — 파라미터는 키우되 계산은 아끼기**
+
 - [심화 · 60–120분] [Mixtral of Experts (2024)](https://arxiv.org/abs/2401.04088) · sparse MoE가 성능과 추론 비용을 어떻게 함께 다루는지 보여 주는 실전형 기술 보고서
+- [심화 · 90–150분] [DeepSeek-V3 Technical Report (2024)](https://arxiv.org/abs/2412.19437) · 671B MoE를 실제로 학습시킨 과정을 라우팅·로드밸런싱·학습 비용까지 공개한 보고서
+
+**롱컨텍스트 — 컨텍스트 윈도우는 어떻게 늘어났고, 늘어난 만큼 쓸 수 있나**
+
 - [심화 · 60–120분] [LongRoPE (2024)](https://arxiv.org/abs/2402.13753) · 위치 임베딩 확장으로 롱컨텍스트를 만드는 대표 접근; 긴 문서·에이전트 설계 전에 읽기 좋음
-- [심화 · 60–120분] [Mamba: Linear-Time Sequence Modeling with Selective State Spaces (2023)](https://arxiv.org/abs/2312.00752) · attention 밖의 SSM 계열이 왜 다시 주목받는지 이해하는 출발점
-- [심화 · 60–120분] [Learning to Reason with LLMs (o1, 2024)](https://arxiv.org/abs/2412.06559) · test-time compute와 강화학습으로 추론 시간을 성능으로 바꾸는 흐름의 핵심 보고서
+- [심화 · 60–120분] [Gemini 1.5 (2024)](https://arxiv.org/abs/2403.05530) · 100만 토큰 컨텍스트를 제품 규모로 끌어올린 기술 보고서
+- [심화 · 45–90분] [RULER: What's the Real Context Size of Your Long-Context LMs? (2024)](https://arxiv.org/abs/2404.06654) · "광고된 컨텍스트 길이 ≠ 실제로 쓸 수 있는 길이"를 벤치마크로 보여 주는 논문; 롱컨텍스트를 믿기 전에 읽기
+
+**Test-time compute · 추론 모델 — 학습이 아니라 추론에 연산을 더 쓰기**
+
+- [심화 · 60–120분] [Scaling LLM Test-Time Compute Optimally (2024)](https://arxiv.org/abs/2408.03314) · 추론 시점에 연산을 더 쓰는 편이 파라미터를 키우는 것보다 유리해지는 조건을 정면으로 분석
 - [심화 · 60–120분] [DeepSeek-R1 (2025)](https://arxiv.org/abs/2501.12948) · open reasoning model의 학습·증류 설계를 공개해 추론 모델을 실험하려는 사람에게 유용
+
+**SSM — 어텐션 바깥의 계보**
+
+- [심화 · 60–120분] [Mamba: Linear-Time Sequence Modeling with Selective State Spaces (2023)](https://arxiv.org/abs/2312.00752) · attention 밖의 SSM 계열이 왜 다시 주목받는지 이해하는 출발점
+- [심화 · 90–150분] [Transformers are SSMs (Mamba-2, 2024)](https://arxiv.org/abs/2405.21060) · 트랜스포머와 SSM이 같은 구조의 두 얼굴임을 보이고 Mamba-2를 제시
 
 ## 9. ✅ 평가 · Evals
 
@@ -180,6 +210,7 @@ An opinionated Korean-first, source-verified map for learning LLMs: foundations,
 - [중급 · 45–90분] [Hugging Face — Multimodal task guides](https://huggingface.co/docs/transformers/tasks/vision) · 오픈 모델로 비전·문서 작업을 실험할 때의 실용적 출발점
 
 ## 14. 🇰🇷 한국어 자료
+
 > 한국어로 깊게 파고들 수 있는, 지금도 살아있는 자료만.
 
 - [입문 · 20–60분] [테디노트 (teddylee777) 블로그](https://teddylee777.github.io/) · LangChain·RAG·LLM 실전 예제가 가장 풍부한 한국어 기술 블로그
@@ -206,6 +237,7 @@ An opinionated Korean-first, source-verified map for learning LLMs: foundations,
 06-rag/                # 검색 증강 생성 실습
 08-papers/             # 논문 요약
 ```
+
 </details>
 
 ---
