@@ -1,6 +1,6 @@
 # 🧠 LLM Study — 대규모 언어모델 시대의 학습 자료 모음 (2023–2026)
 
-[![Last updated](https://img.shields.io/badge/last%20updated-2026--07--28-0a7f5b?style=flat-square)](https://github.com/melocream/awesome-llm-study/commits/master)
+[![Last updated](https://img.shields.io/badge/last%20updated-2026--07--29-0a7f5b?style=flat-square)](https://github.com/melocream/awesome-llm-study/commits/master)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC--BY--4.0-lightgrey.svg?style=flat-square)](LICENSE)
 
 > 트랜스포머부터 GPT·Claude, 에이전트·MCP·RAG까지 — **LLM 시대를 스스로 공부하는 분들께 도움이 되고자** 직접 읽고, 보고, 검증한 자료만 모았습니다.
@@ -9,7 +9,6 @@
 - 관리: [@melocream](https://github.com/melocream)
 - 만든 사람이 만드는 것: **[marblo.app](https://marblo.app)** — AI-native 팀을 위한 오케스트레이션 컨트롤 플레인
 - 원칙: **권위 있는 1차 출처 우선**, 최신(2024–2026) 자료 우선, 한 줄 코멘트로 "왜 봐야 하는지"만 남깁니다.
-- 참고한 형식: [teddylee777/machine-learning](https://github.com/teddylee777/machine-learning) 의 카테고리 + 한 줄 코멘트 스타일
 
 ---
 
@@ -21,11 +20,11 @@ An opinionated Korean-first, source-verified map for learning LLMs: foundations,
 
 자료가 많은 것보다 **다음에 무엇을 할지 아는 것**이 중요합니다. 아래 순서대로 한 단계씩 끝내고, 관심 분야의 섹션으로 확장하세요.
 
-| 단계                         | 목표                                       | 먼저 볼 자료                                                                                                               | 권장 기간 |
-| ---------------------------- | ------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------- | --------- |
-| 1. 작동 원리 잡기            | 토큰·어텐션·다음 토큰 예측을 말로 설명한다 | [3Blue1Brown](#1-️-llm-발전사--기초), [Illustrated Transformer](#1-️-llm-발전사--기초)                                     | 1–2주     |
-| 2. 직접 만들어 보기          | 작은 언어 모델을 학습·평가한다             | [Karpathy Zero to Hero](#2--강의-courses), [CS336](#2--강의-courses)                                                       | 3–6주     |
-| 3. 제품으로 연결하기         | 프롬프트·RAG·툴 호출을 조합한다            | [에이전트·MCP](#3--에이전트--툴콜--mcp), [RAG](#6--rag-검색-증강-생성)                                                     | 2–4주     |
+| 단계                         | 목표                                       | 먼저 볼 자료                                                                                                                 | 권장 기간 |
+| ---------------------------- | ------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------- | --------- |
+| 1. 작동 원리 잡기            | 토큰·어텐션·다음 토큰 예측을 말로 설명한다 | [3Blue1Brown](#1-️-llm-발전사--기초), [Illustrated Transformer](#1-️-llm-발전사--기초)                                       | 1–2주     |
+| 2. 직접 만들어 보기          | 작은 언어 모델을 학습·평가한다             | [Karpathy Zero to Hero](#2--강의-courses), [CS336](#2--강의-courses)                                                         | 3–6주     |
+| 3. 제품으로 연결하기         | 프롬프트·RAG·툴 호출을 조합한다            | [에이전트·MCP](#3--에이전트--툴콜--mcp), [RAG](#6--rag-검색-증강-생성)                                                       | 2–4주     |
 | 4. 운영 가능한 시스템 만들기 | 평가·서빙·비용·보안을 함께 설계한다        | [Evals](#9--평가--evals), [로컬 실행](#10-️-로컬-실행--서빙--양자화), [보안](#11-️-llm-보안), [비용](#12--비용--토큰-경제학) | 지속      |
 
 `[입문]`, `[중급]`, `[심화]`는 사전지식 기준이고, 시간은 첫 회독·실습의 대략적인 투자량입니다.
@@ -57,7 +56,9 @@ An opinionated Korean-first, source-verified map for learning LLMs: foundations,
 > 밑바닥부터 직접 구현하며 배우는 정통 커리큘럼 위주.
 
 - [중급 · 2–12시간] [Stanford CS224n — NLP with Deep Learning](https://web.stanford.edu/class/cs224n/) · NLP·언어모델의 정석 대학원 강의 (강의노트·슬라이드 공개)
+- [중급 · 2–12시간] [↳ CS224n 강의 영상 (Spring 2024, YouTube)](https://www.youtube.com/playlist?list=PLoROMvodv4rOaMFbaqxPDoLWjDaRAdP9D) · Christopher Manning 교수의 전체 강의 23강을 공개한 Stanford Online 공식 재생목록
 - [중급 · 2–12시간] [Stanford CS336 — Language Modeling from Scratch](https://stanford-cs336.github.io/spring2025/) · 데이터·토크나이저부터 학습·평가까지 "LLM을 처음부터" 만드는 2025 신설 강의
+- [중급 · 2–12시간] [↳ CS336 강의 영상 (Spring 2025, YouTube)](https://www.youtube.com/playlist?list=PLoROMvodv4rOY23Y0BoGoBGgQ1zmU_MT_) · 위 강의의 전체 녹화본 17강 — 토크나이저·아키텍처·GPU·MoE까지 처음부터 쌓아 올리는 과정
 - [중급 · 2–12시간] [Karpathy — Neural Networks: Zero to Hero](https://karpathy.ai/zero-to-hero.html) · micrograd→makemore→GPT까지 코드로 쌓아올리는 무료 강의 시리즈
 - [중급 · 2–12시간] [karpathy/nanoGPT](https://github.com/karpathy/nanoGPT) · GPT를 ~300줄로 재현하는 가장 유명한 미니멀 학습용 구현체
 - [중급 · 2–12시간] [karpathy/makemore](https://github.com/karpathy/makemore) · bigram→트랜스포머까지 언어모델을 단계별로 만드는 실습 저장소
@@ -220,6 +221,13 @@ An opinionated Korean-first, source-verified map for learning LLMs: foundations,
 - [입문 · 20–60분] [가짜연구소 (Pseudo-Lab) — GitHub](https://github.com/Pseudo-Lab) · 국내 최대 오픈 AI 스터디 커뮤니티의 프로젝트·자료 모음
 - [입문 · 20–60분] [모두를 위한 머신러닝/딥러닝 — 김성훈](https://hunkim.github.io/ml/) · 한국어 딥러닝 입문의 고전, 기초 개념 다지기용
 - [입문 · 20–60분] [rickiepark/nlp-with-transformers](https://github.com/rickiepark/nlp-with-transformers) · 『트랜스포머를 활용한 자연어 처리』 한국어판 예제 코드
+- [입문 · 20–60분] [혁펜하임 — AI & 딥러닝 강의 (YouTube)](https://www.youtube.com/@hyukppen) · 어텐션·트랜스포머 같은 딥러닝 이론을 수식까지 한국어로 차근차근 짚어 주는 강의 채널
+- [중급 · 30–90분] [서울대 DSBA 연구실 (YouTube)](https://www.youtube.com/@dsba2979) · LLM·딥러닝 최신 논문을 한국어로 발표·해설하는 대학원 세미나 채널 (논문 읽기 훈련용)
+- [입문 · 20–60분] [조코딩 JoCoding (YouTube)](https://www.youtube.com/@jocoding) · 비개발자·입문자가 LLM API로 AI 앱을 직접 만들어 보는 실전 채널
+
+### 🎬 영상으로 감 잡기 (한국어)
+
+- [입문 · 10–20분] [마블로 — 터미널 말고 보드에서 Claude Code 병렬 개발하기 (YouTube)](https://youtu.be/vsWPkl8hzq4) · 오케스트레이터가 여러 코딩 에이전트를 보드 위에서 병렬로 굴리는 한국어 실전 데모 (※ 이 저장소 관리자가 만드는 제품 [marblo.app](https://marblo.app))
 
 ---
 
