@@ -260,6 +260,14 @@ An opinionated Korean-first, source-verified map for learning LLMs: foundations,
 - [심화 · 참고용] [서울대 DSBA 연구실 (YouTube)](https://www.youtube.com/@dsba2979) · LLM·딥러닝 최신 논문을 한국어로 발표·해설하는 대학원 세미나 채널 (논문 읽기 훈련용)
 - [입문 · 참고용] [조코딩 JoCoding (YouTube)](https://www.youtube.com/@jocoding) · 비개발자·입문자가 LLM API로 AI 앱을 직접 만들어 보는 실전 채널
 
+### 🧭 시작하기 — 데이터가 답이다 (이 저장소 관리자)
+
+> 이 저장소를 관리하는 **데이터가 답이다(동원킴, [@melocream](https://github.com/melocream))** 의 한국어 시작 자료. Claude Code·마블로를 처음 켜는 분들께.
+
+- [입문 · 참고용] [데이터가 답이다 — YouTube 채널](https://www.youtube.com/@데이터가답이다) · 클로드코드·이기종 AI 에이전트·마블로를 한국어로 다루는 관리자 채널
+- [입문 · 참고용] [클로드코드 완전 셋업 가이드 (영상)](https://www.youtube.com/watch?v=lqn2kFKUYss) · Claude Code를 처음부터 셋팅하는 한국어 실전 가이드
+- [입문 · 참고용] [마블로 시작하기 — 한국어 가이드](https://marblo.app/ko/guide) · 오케스트레이터·병렬 에이전트 워크플로우 공식 시작 가이드 (제품: [marblo.app](https://marblo.app))
+
 ## 15. 📡 최신 따라가기
 
 > 큐레이션 레포는 낡습니다. **이 리스트도 6개월 뒤엔 낡아요** — 그래서 "무엇을 구독해 스스로 갱신할지"를 남깁니다.
