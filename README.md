@@ -252,4 +252,4 @@ An opinionated Korean-first, source-verified map for learning LLMs: foundations,
 
 > 🔗 잘못된 링크나 추가하면 좋을 자료가 있으면 이슈/PR 환영합니다.
 > 기여 방법은 [CONTRIBUTING.md](CONTRIBUTING.md), 이용 조건은 [CC BY 4.0](LICENSE)을 참고하세요.
-> Maintained by [@melocream](https://github.com/melocream) · Built with [marblo.app](https://marblo.app)
+> Maintained by 데이터가답이다(동원킴) · [@melocream](https://github.com/melocream) · Built with [marblo.app](https://marblo.app)
