@@ -6,7 +6,7 @@
 > 트랜스포머부터 GPT·Claude, 에이전트·MCP·RAG까지 — **LLM 시대를 스스로 공부하는 분들께 도움이 되고자** 직접 읽고, 보고, 검증한 자료만 모았습니다.
 > 이 저장소의 모든 링크는 실제로 열어 보고 살아있는 것만 담았습니다. (죽은 링크·추측 URL 없음)
 
-- 관리: [@melocream](https://github.com/melocream)
+- 관리: 데이터가답이다(동원킴) · [@melocream](https://github.com/melocream)
 - 만든 사람이 만드는 것: **[marblo.app](https://marblo.app)** — AI-native 팀을 위한 오케스트레이션 컨트롤 플레인
 - 원칙: **권위 있는 1차 출처 우선**, 최신(2024–2026) 자료 우선, 한 줄 코멘트로 "왜 봐야 하는지"만 남깁니다.
 
