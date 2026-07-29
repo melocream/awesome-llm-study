@@ -266,7 +266,8 @@ An opinionated Korean-first, source-verified map for learning LLMs: foundations,
 
 - [입문 · 참고용] [데이터가 답이다 — YouTube 채널](https://www.youtube.com/@데이터가답이다) · 클로드코드·이기종 AI 에이전트·마블로를 한국어로 다루는 관리자 채널
 - [입문 · 참고용] [클로드코드 완전 셋업 가이드 (영상)](https://www.youtube.com/watch?v=lqn2kFKUYss) · Claude Code를 처음부터 셋팅하는 한국어 실전 가이드
-- [입문 · 참고용] [마블로 시작하기 — 한국어 가이드](https://marblo.app/ko/guide) · 오케스트레이터·병렬 에이전트 워크플로우 공식 시작 가이드 (제품: [marblo.app](https://marblo.app))
+- [입문 · 참고용] [gstack — Claude Code 셋업 실전기 (영상)](https://www.youtube.com/watch?v=uL7qVo1W2K0) · Claude Code에 gstack 스킬 스택(브라우징·리뷰·배포 등)을 얹어 코드 한 줄 없이 사이트를 만드는 한국어 실전 영상
+- [입문 · 참고용] [마블로 — 오케와 함께 병렬 개발 시작하기 (한국어 가이드)](https://marblo.app/ko/guide) · 목표를 말하면 오케스트레이터가 티켓으로 분해하고, 여러 코딩 에이전트를 각자 워크트리에서 **병렬로 스폰·추적·안전 머지**하는 워크플로우를 처음부터 따라 하는 공식 시작 가이드 (제품: [marblo.app](https://marblo.app))
 
 ## 15. 📡 최신 따라가기
 
